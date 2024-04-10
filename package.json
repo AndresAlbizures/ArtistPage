@@ -1,5 +1,5 @@
 {
-  "homepage":"http://AndresAlbizures.github.io/ArtistPage",
+  "homepage": "http://AndresAlbizures.github.io/ArtistPage",
   "name": "port-app",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
