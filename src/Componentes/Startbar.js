@@ -12,14 +12,14 @@ const Startbar = () => {
   return (
 
     <><nav className="navbar-start fixed-top">
-      <a class="enlace">
+     
         <img
           src={require('../Imagenes/brand-logo-cian.png')}
           width="100px"
           height="100px"
           className="brand-blur"
           alt="" />
-      </a>
+    
       <input type="checkbox" id="check"></input>
       <label for="check" className="checkbtn">
         <FontAwesomeIcon icon={faBars} style={{ color: "#e8e8e8", }} />
