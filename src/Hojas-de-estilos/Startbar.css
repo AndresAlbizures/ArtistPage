@@ -1,0 +1,137 @@
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor: pointer;
+    
+}
+#check{
+    display: none;
+}
+
+.enlace{
+    
+    padding: 10px;
+   
+}
+ul{
+    list-style-type: none;
+}
+.hor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-start {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    height: 13%;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0 3px 15px 1px rgb(0 0 0 / 25%);
+
+}
+
+.brand-blur {
+
+    position: relative;
+    width: 75px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.brand-blur:hover {
+    box-shadow: 0px 0px 5px cyan,
+        0px 0px 15px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+
+
+Link:hover {
+    color: White;
+    text-shadow: 0px 0px 5px cyan,
+        0px 0px 15px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+    transform: scale(1.2);
+}
+
+.link-bar2 {
+   
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.link-bar2:hover {
+    text-emphasis-color: White;
+    text-shadow: 0px 0px 5px cyan,
+        0px 0px 15px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+    transform: scale(1.2);
+}
+.div-out{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+.out{
+    background-color: black;
+}
+
+@media (max-width: 925px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 825px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed; 
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background: rgba(1, 45, 45, 0.552);
+        backdrop-filter: blur(5px);
+        top:95px;
+        left:-100%;
+        transition: all 0.5s;
+    }
+    nav .hor li{
+        display: block;
+    
+        margin: 50px auto;
+        line-height: 30px;
+
+    }
+
+    nav .hor li a{
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+        display: block;
+    }
+}

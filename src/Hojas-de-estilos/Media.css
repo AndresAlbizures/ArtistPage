@@ -1,0 +1,138 @@
+.div {
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 66px;
+    gap: 50px;
+    background-color: rgb(27, 79, 87);
+
+}
+
+.div-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 400px;
+    width: 600px;
+    background-color: rgba(240, 248, 255, 0.112);
+    backdrop-filter: blur(5px);
+    border-radius: 2rem;
+
+}
+
+.div-media2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(240, 248, 255, 0.112);
+    backdrop-filter: blur(5px);
+    border-radius: 2rem;
+
+}
+.media-contenedor {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 315px;
+    width: 560px;
+    transform: translateZ(0px);
+    border: 3px solid #eee;
+    border-radius: 1rem;
+}
+.media-contenedor2 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 525px;
+    width: 560px;
+    transform: translateZ(0px);
+    border: 3px solid #eee;
+    border-radius: 1rem;
+}
+
+.media-title {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+}
+
+.media-title2{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+
+.brand-blur {
+
+    position: relative;
+    width: 75px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+.brand-blur:hover {
+    box-shadow: 0px 0px 5px cyan,
+        0px 0px 15px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+
+.frame {
+    position: relative;
+    border-radius: 20%;
+    background-color: aliceblue;
+}
+
+@media (max-width: 925px){
+    .div{
+        margin-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }       
+  
+  @media (max-width: 825px) {
+    .div {
+        margin-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+     
+    
+    }  
+  }
+  }

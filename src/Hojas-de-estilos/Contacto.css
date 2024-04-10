@@ -1,0 +1,130 @@
+.div-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+    min-width: 150px;
+    width: auto;
+    gap: 25%;
+    height: 100vh;
+    background-color: rgb(68, 101, 115);
+    
+}
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 45px;
+    min-width: 125px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(13, 13, 13);
+    background-color: rgba(0, 0, 0, 0.652);
+    border-radius: 20px;
+ 
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #ffffff;
+}
+.h2{
+    color:#ffffff;
+    font-size: 35px;
+}
+
+.label{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.form-txt{
+margin-bottom: 30px;
+display: flex;
+gap: 40px;
+text-align: center;
+}
+.form-text a{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-contacto{
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 150px;
+    font-weight: 700px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-contacto:hover{
+    box-shadow: 0 0 20px rgb(105, 241, 226);;
+}
+.img-size-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    width: auto;
+    margin-left: 80px;
+    margin-top: 45px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.text-area{
+
+    margin-top: 15px;
+    padding: 25px 25px;
+    height: 80px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    max-height: 100px;
+    min-height: 80px;
+    background-color: white;
+    
+}
+input{
+   
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 150px;
+    background-color: white;
+}
+
+
+@media (max-width: 925px){
+    .div-con {
+      margin-top: 95px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 80px;
+      height: 100vh;
+      text-align: center;
+      min-width: 125px;
+  }
+  
+  @media (max-width: 825px) {
+      .div-con {
+          margin-top: 95px;
+          display: flex;
+          padding: 80px;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          text-align: center;
+          min-width: 125px;
+          
+      }
+  }
+  }
