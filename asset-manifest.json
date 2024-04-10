@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ArtistPage/static/css/main.7379c4b6.css",
-    "main.js": "/ArtistPage/static/js/main.92ab32e4.js",
+    "main.css": "/ArtistPage/static/css/main.b55d55cd.css",
+    "main.js": "/ArtistPage/static/js/main.71a51562.js",
     "static/js/453.b96b009c.chunk.js": "/ArtistPage/static/js/453.b96b009c.chunk.js",
     "static/media/SP.png": "/ArtistPage/static/media/SP.659f040d2df4e15bc805.png",
     "static/media/X.png": "/ArtistPage/static/media/X.7e40f617aaa8eca864bb.png",
@@ -13,12 +13,12 @@
     "static/media/YT.png": "/ArtistPage/static/media/YT.553ae416a7e7f1e6343a.png",
     "static/media/brand-logo-cian.png": "/ArtistPage/static/media/brand-logo-cian.258fd27ee098c295e4ed.png",
     "index.html": "/ArtistPage/index.html",
-    "main.7379c4b6.css.map": "/ArtistPage/static/css/main.7379c4b6.css.map",
-    "main.92ab32e4.js.map": "/ArtistPage/static/js/main.92ab32e4.js.map",
+    "main.b55d55cd.css.map": "/ArtistPage/static/css/main.b55d55cd.css.map",
+    "main.71a51562.js.map": "/ArtistPage/static/js/main.71a51562.js.map",
     "453.b96b009c.chunk.js.map": "/ArtistPage/static/js/453.b96b009c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7379c4b6.css",
-    "static/js/main.92ab32e4.js"
+    "static/css/main.b55d55cd.css",
+    "static/js/main.71a51562.js"
   ]
 }
