@@ -13,7 +13,8 @@ function App() {
     <div>
       <Router>
       <Startbar></Startbar>
-        <Routes>          
+        <Routes>      
+            <Route path='/' element={<Galeria/>}/> 
             <Route path='/inicio' element={<Galeria/>}/>
             <Route path='/media' element={<Media/>}/>
             <Route path='/redes' element={<Redes/>}/>
