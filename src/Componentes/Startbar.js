@@ -12,7 +12,7 @@ const Startbar = () => {
   return (
 
     <><nav className="navbar-start fixed-top">
-      <a href="/" class="enlace">
+      <a class="enlace">
         <img
           src={require('../Imagenes/brand-logo-cian.png')}
           width="100px"
