@@ -12,16 +12,16 @@ const Startbar = () => {
   return (
 
     <><nav className="navbar-start fixed-top">
-     
-        <img
-          src={require('../Imagenes/BRANDLESH.png')}
-          width="200px"
-          height="100px"
-          className=""
-          alt="" />
-    
+
+      <img
+        src={require('../Imagenes/BRANDLESH.png')}
+        width="200px"
+        height="100px"
+        className=""
+        alt="" />
+
       <input type="checkbox" id="check"></input>
-    
+
       <label id="toggle" for="check" className="checkbtn">
         <FontAwesomeIcon icon={faBars} style={{ color: "#e8e8e8", }} />
       </label>
@@ -34,7 +34,7 @@ const Startbar = () => {
       </ul>
 
     </nav>
-
+     
     </>
 
   )

@@ -49,6 +49,7 @@ function Redes() {
 
             </a>
             <h1>Sigueme en mis redes sociales</h1>
+            
         </div>
     )
 
