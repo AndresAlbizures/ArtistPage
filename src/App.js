@@ -14,7 +14,6 @@ function App() {
       <Router>
       <Startbar></Startbar>
         <Routes>      
-          
             <Route path='/' element={<Galeria/>}/> 
             <Route path='/ArtistPage' element={<Galeria/>}/> 
             <Route path='/inicio' element={<Galeria/>}/>

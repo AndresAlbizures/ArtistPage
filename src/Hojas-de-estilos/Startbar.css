@@ -12,6 +12,10 @@
     display: none;
 }
 
+#check1{
+    display: block;
+}
+
 .enlace{
     
     padding: 10px;
@@ -34,7 +38,7 @@ ul{
     gap: 15px;
     width: 100%;
     height: 13%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(13, 15, 17);
     box-shadow: 0 3px 15px 1px rgb(0 0 0 / 25%);
 
 }
@@ -42,14 +46,14 @@ ul{
 .brand-blur {
 
     position: relative;
-    width: 75px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
@@ -74,7 +78,7 @@ Link:hover {
     color: white;
     margin-left: 20px;
     text-decoration: none;
-
+    
 }
 
 .link-bar2:hover {
@@ -120,7 +124,6 @@ Link:hover {
     }
     nav .hor li{
         display: block;
-    
         margin: 50px auto;
         line-height: 30px;
 
@@ -132,6 +135,7 @@ Link:hover {
 
     #check:checked ~ ul{
         left: 0%;
-        display: block;
+        display: inline-block;
     }
+
 }
