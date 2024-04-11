@@ -32,11 +32,8 @@ const Startbar = () => {
         <li ><Link to="/redes" for="toggle" className="link-bar2">Redes Sociales</Link></li>
         <li ><Link to="/contacto" for="toggle" className="link-bar2">Contacto</Link></li>
       </ul>
-
     </nav>
-     
     </>
-
   )
 
 

@@ -23,11 +23,6 @@ function Contacto() {
                 </div>
                 <input className="btn-contacto" type="submit" value="Enviar"></input>
             </form>
-
-         
-
-
-
         </div>
     )
 

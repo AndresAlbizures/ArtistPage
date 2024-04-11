@@ -54,5 +54,4 @@ function Redes() {
     )
 
 }
-
 export default Redes;

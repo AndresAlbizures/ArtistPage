@@ -20,11 +20,6 @@ function Media() {
            
         </div>
     )
-
-
-
-
-
 }
 
 export default Media;

@@ -73,8 +73,6 @@ function Galeria() {
                     </a>
                 </div>
             </div>
-
-            
         </div>
     )
 
