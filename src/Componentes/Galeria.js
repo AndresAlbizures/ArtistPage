@@ -49,7 +49,6 @@ function Galeria() {
 
                 <a href="https://www.amazon.com/music/player/artists/B0CCPHMMHM/lesh-ag">
                     <img
-
                         src={require('../Imagenes/AmazonMusic.png')}
                         width="75px"
                         height="75px"
