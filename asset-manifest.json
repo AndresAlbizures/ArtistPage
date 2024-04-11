@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/ArtistPage/static/css/main.b55d55cd.css",
-    "main.js": "/ArtistPage/static/js/main.01bd6f95.js",
+    "main.css": "/ArtistPage/static/css/main.31302a3c.css",
+    "main.js": "/ArtistPage/static/js/main.fb8e6e00.js",
     "static/js/453.b96b009c.chunk.js": "/ArtistPage/static/js/453.b96b009c.chunk.js",
+    "static/media/BRANDLESH.png": "/ArtistPage/static/media/BRANDLESH.01a382354cb8878338da.png",
     "static/media/SP.png": "/ArtistPage/static/media/SP.659f040d2df4e15bc805.png",
     "static/media/X.png": "/ArtistPage/static/media/X.7e40f617aaa8eca864bb.png",
     "static/media/YTM.png": "/ArtistPage/static/media/YTM.8d15740d9f7d696420da.png",
@@ -11,14 +12,13 @@
     "static/media/Spotify.png": "/ArtistPage/static/media/Spotify.fada30eecd6bbe0b0d9a.png",
     "static/media/Apple Music.png": "/ArtistPage/static/media/Apple Music.b435f53b20a2a6b3c570.png",
     "static/media/YT.png": "/ArtistPage/static/media/YT.553ae416a7e7f1e6343a.png",
-    "static/media/brand-logo-cian.png": "/ArtistPage/static/media/brand-logo-cian.258fd27ee098c295e4ed.png",
     "index.html": "/ArtistPage/index.html",
-    "main.b55d55cd.css.map": "/ArtistPage/static/css/main.b55d55cd.css.map",
-    "main.01bd6f95.js.map": "/ArtistPage/static/js/main.01bd6f95.js.map",
+    "main.31302a3c.css.map": "/ArtistPage/static/css/main.31302a3c.css.map",
+    "main.fb8e6e00.js.map": "/ArtistPage/static/js/main.fb8e6e00.js.map",
     "453.b96b009c.chunk.js.map": "/ArtistPage/static/js/453.b96b009c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b55d55cd.css",
-    "static/js/main.01bd6f95.js"
+    "static/css/main.31302a3c.css",
+    "static/js/main.fb8e6e00.js"
   ]
 }
