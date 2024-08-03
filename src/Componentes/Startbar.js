@@ -1,18 +1,23 @@
-import React from "react"
+import React, { useState } from "react";
 import '../Hojas-de-estilos/Startbar.css';
 import '../App.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-
-
-
 const Startbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleMenuItemClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
-
-    <><nav className="navbar-start fixed-top">
-
+    <nav className="navbar-start fixed-top">
       <img
         src={require('../Imagenes/BRANDLESH.png')}
         width="200px"
@@ -20,23 +25,20 @@ const Startbar = () => {
         className=""
         alt="" />
 
-      <input type="checkbox" id="check"></input>
+      <input type="checkbox" id="check" checked={menuOpen} onChange={handleMenuToggle}></input>
 
-      <label id="toggle" for="check" className="checkbtn">
-        <FontAwesomeIcon icon={faBars} style={{ color: "#e8e8e8", }} />
+      <label id="toggle" htmlFor="check" className="checkbtn">
+        <FontAwesomeIcon icon={faBars} style={{ color: "#e8e8e8" }} />
       </label>
 
-      <ul className="hor">
-        <li ><Link to="/inicio" for="toggle" className="link-bar2">Inicio</Link></li>
-        <li ><Link to="/media" for="toggle" className="link-bar2">Media</Link></li>
-        <li ><Link to="/redes" for="toggle" className="link-bar2">Redes Sociales</Link></li>
-        <li ><Link to="/contacto" for="toggle" className="link-bar2">Contacto</Link></li>
+      <ul className={`hor ${menuOpen ? 'show-menu' : ''}`}>
+        <li><Link to="/inicio" className="link-bar2" onClick={handleMenuItemClick}>Inicio</Link></li>
+        <li><Link to="/media" className="link-bar2" onClick={handleMenuItemClick}>Media</Link></li>
+        <li><Link to="/redes" className="link-bar2" onClick={handleMenuItemClick}>Redes Sociales</Link></li>
+        <li><Link to="/contacto" className="link-bar2" onClick={handleMenuItemClick}>Contacto</Link></li>
       </ul>
     </nav>
-    </>
-  )
+  );
+};
 
-
-
-}
 export default Startbar;

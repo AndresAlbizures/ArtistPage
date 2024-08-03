@@ -1,11 +1,33 @@
-.fondo{
-  display:grid;
+/* Asegura que el fondo cubra toda la pantalla */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.fondo {
+  display: grid;
   align-items: center;
   justify-content: center;
   background-color: black;
   padding-top: 75px;
-  
+  min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
 }
-html{
-  scroll-behavior: smooth;
+
+/* Responsive Styles */
+@media (max-width: 925px) {
+  .fondo {
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fondo {
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 }

@@ -7,7 +7,7 @@
     min-width: 150px;
     width: 100%;
     gap: 25px;
-    height: 100vh;
+    min-height: 100vh; /* Cambiado de height a min-height */
     background-color: rgb(68, 101, 115);
     padding: 20px;
 }
