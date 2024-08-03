@@ -59,12 +59,12 @@
 
 @media (max-width: 925px){
   .div-redes {
-    margin-top: 95px;
+    margin-top: 85px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 80px;
+    padding: 40px;
     height: 100vh;
     text-align: center;
     
@@ -72,9 +72,9 @@
 
 @media (max-width: 825px) {
     .div-redes {
-        margin-top: 95px;
+        margin-top: 85px;
         display: flex;
-        padding: 80px;
+        padding: 40px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;

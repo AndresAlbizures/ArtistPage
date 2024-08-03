@@ -107,7 +107,7 @@ input {
 /* Responsive Styles */
 @media (max-width: 925px) {
     .div-con {
-        margin-top: 95px;
+        margin-top: 85px;
         padding: 40px;
         gap: 20px;
     }
@@ -120,6 +120,7 @@ input {
 
 @media (max-width: 825px) {
     .div-con {
+        margin-top: 85px;
         flex-direction: column;
         height: auto;
     }
